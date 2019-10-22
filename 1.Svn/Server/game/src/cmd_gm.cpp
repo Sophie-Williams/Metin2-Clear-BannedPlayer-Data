@@ -11,7 +11,8 @@ const std::map<const char*, const char*> _Deleter
 	{"log.loginlog", "pid"},
 	{"log.loginlog2", "pid"},
 	{"log.goldlog", "pid"},
-	{"player.item", "owner_id"}
+	{"player.item", "owner_id"},
+	{"player.player", "id"}
 };
 ACMD(do_clean)
 {
